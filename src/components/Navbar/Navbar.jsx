@@ -108,7 +108,7 @@ function NavBar() {
                 to="/englishClass"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> S4 BDDC2
+                <CgFileDocument style={{ marginBottom: "2px" }} /> S4 English class
               </Nav.Link>
             </Nav.Item>
 
