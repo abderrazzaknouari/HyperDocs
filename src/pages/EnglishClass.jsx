@@ -13,7 +13,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pd
 
 const resumeLink = `https://raw.githubusercontent.com/abderrazzaknouari/HyperDocs/main/src/assets/Essay_English_class.pdf`
 
-
 const EnglishClass = () => {
   const [width, setWidth] = useState(1200);
 
@@ -27,7 +26,15 @@ const EnglishClass = () => {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
-        
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download The Essay
+          </Button>
         </Row>
 
         <Row className="resume">
@@ -37,7 +44,15 @@ const EnglishClass = () => {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-        
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download The Essay
+          </Button>
         </Row>
       </Container>
     </div>

@@ -27,7 +27,15 @@ const InnovationWeek = () => {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
-        
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download The Essay
+          </Button>
         </Row>
 
         <Row className="resume">
@@ -37,7 +45,15 @@ const InnovationWeek = () => {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-        
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download The Essay
+          </Button>
         </Row>
       </Container>
     </div>
