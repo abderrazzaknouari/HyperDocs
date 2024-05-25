@@ -13,6 +13,7 @@ import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 import InnovationWeek from './pages/InnovationWeek'
 import EnglishClass from './pages/EnglishClass'
+import CoverLetter from "./pages/CoverLetter";
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -39,6 +40,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/innovationWeek" element={<InnovationWeek />} />
           <Route path="/englishClass" element={<EnglishClass />} />
+          <Route path="/CoverLetter" element={<CoverLetter />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
